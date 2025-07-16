@@ -1,0 +1,4 @@
+nombre = int(input("Entrez un nombre pour sa table : "))
+print(f"\n== Table de {nombre} ==")
+for i in range(1, 13):
+    print(f"{nombre} x {i} = {nombre * i}")
