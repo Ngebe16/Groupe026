@@ -1,0 +1,11 @@
+while True:
+    print("\n1. Bonjour\n2. Addition\n0. Quitter")
+    choix = input("Choix : ")
+    if choix == "0":
+        break
+    elif choix == "1":
+        print("Bonjour !")
+    elif choix == "2":
+        a = float(input("Nombre 1 : "))
+        b = float(input("Nombre 2 : "))
+        print(f"Résultat : {a + b}")
