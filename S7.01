@@ -1,0 +1,6 @@
+nombres = [int(x) for x in input("Entrez des nombres : ").split()]
+for i in range(len(nombres)):
+    for j in range(len(nombres)-1):
+        if nombres[j] > nombres[j+1]:
+            nombres[j], nombres[j+1] = nombres[j+1], nombres[j]
+print("Trié :", nombres)
