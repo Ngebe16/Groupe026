@@ -1,0 +1,3 @@
+texte = input("Texte : ")
+mot = input("Mot à compter : ")
+print(f"Occurrences : {texte.count(mot)}")
