@@ -1,0 +1,2 @@
+nombres = [float(x) for x in input("Entrez des nombres : ").split()]
+print(f"Max: {max(nombres)}\nMin: {min(nombres)}\nMoyenne: {sum(nombres)/len(nombres):.2f}")
