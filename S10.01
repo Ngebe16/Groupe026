@@ -1,0 +1,2 @@
+mot = input("Mot (≥5 lettres) : ")
+print("Milieu :", mot[2:-2])
