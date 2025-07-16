@@ -1,0 +1,8 @@
+while True:
+    try:
+        n = int(input("Entier positif : "))
+        if n < 0:
+            raise ValueError("Doit être positif")
+        break
+    except ValueError as e:
+        print(f"Erreur : {e}")
