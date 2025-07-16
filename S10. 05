@@ -1,0 +1,2 @@
+nombres = input("Nombres : ").split()
+print("Indices pairs :", nombres[::2])
