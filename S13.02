@@ -1,0 +1,5 @@
+try:
+    entier = int(input("Entier : "))
+    print("Valide")
+except ValueError:
+    print("Pas un entier !")
