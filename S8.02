@@ -1,0 +1,2 @@
+for i, elem in enumerate(input("Entrez des éléments : ").split()):
+    print(f"Indice {i} : {elem}")
