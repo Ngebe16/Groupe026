@@ -1,0 +1,8 @@
+somme, nb_notes = 0, 0
+while True:
+    note = float(input("Note (-1 pour arrêter) : "))
+    if note == -1:
+        break
+    somme += note
+    nb_notes += 1
+print(f"Moyenne : {somme / nb_notes:.2f}" if nb_notes else "Aucune note.")
