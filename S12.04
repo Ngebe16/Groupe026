@@ -1,0 +1,3 @@
+notes = [float(x) for x in input("Notes : ").split()]
+with open("stats.txt", "w") as f:
+    f.write(f"Moyenne: {sum(notes)/len(notes):.2f}")
