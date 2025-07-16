@@ -1,0 +1,3 @@
+texte = input("Entrez une chaîne : ")
+inverse = texte[::-1]
+print(f"Inversé : {inverse}")
