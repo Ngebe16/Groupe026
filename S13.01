@@ -1,0 +1,6 @@
+try:
+    a = float(input("Nombre 1 : "))
+    b = float(input("Nombre 2 : "))
+    print(a / b)
+except ZeroDivisionError:
+    print("Division par zéro !")
