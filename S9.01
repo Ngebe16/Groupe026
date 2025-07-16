@@ -1,0 +1,2 @@
+texte = input("Texte : ").strip().lower().replace(".", "!")
+print("Nettoyé :", texte)
