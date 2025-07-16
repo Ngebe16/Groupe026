@@ -1,0 +1,4 @@
+mots = input("Entrez des mots : ").split()
+voyelles = "aeiouyAEIOUY"
+total = sum(1 for mot in mots for lettre in mot if lettre in voyelles)
+print(f"Nombre de voyelles : {total}")
