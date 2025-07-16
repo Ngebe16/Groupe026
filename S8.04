@@ -1,0 +1,3 @@
+phrase = input("Entrez une phrase : ")
+mots_long = [mot for mot in phrase.split() if len(mot) > 5]
+print(f"{len(mots_long)} mots > 5 lettres.")
