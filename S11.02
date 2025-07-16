@@ -1,0 +1,5 @@
+def stats(liste):
+    return sum(liste), sum(liste)/len(liste), max(liste)
+
+s, m, mx = stats([1, 2, 3])
+print(f"Somme: {s}, Moyenne: {m}, Max: {mx}")
