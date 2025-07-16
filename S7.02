@@ -1,0 +1,3 @@
+elements = input("Entrez des éléments : ").split()
+uniques = list(set(elements))  # Conversion en set pour supprimer les doublons
+print("Uniques :", uniques)
