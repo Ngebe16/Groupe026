@@ -1,0 +1,3 @@
+phrase = input("Phrase : ")
+mot = input("Mot à masquer : ")
+print(phrase.replace(mot, "*" * len(mot)))
