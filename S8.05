@@ -1,0 +1,4 @@
+texte = input("Texte : ")
+voyelles = "aeiouyAEIOUY"
+consonnes = [c for c in texte if c.isalpha() and c not in voyelles]
+print("Consonnes :", "".join(consonnes))
