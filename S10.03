@@ -1,0 +1,2 @@
+mots = input("Phrase : ").split()
+print("Un sur deux :", mots[::2])
