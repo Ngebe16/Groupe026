@@ -1,0 +1,5 @@
+def convertir(usd):
+    return usd * 0.93, usd * 610, usd * 0.79
+
+eur, cfa, gbp = convertir(100)
+print(f"EUR: {eur}, CFA: {cfa}, GBP: {gbp}")
