@@ -1,0 +1,4 @@
+entree = input("Entrez des nombres séparés par des espaces : ")
+nombres = [int(x) for x in entree.split()]
+somme_pairs = sum(x for x in nombres if x % 2 == 0)
+print(f"Somme des pairs : {somme_pairs}")
