@@ -1,0 +1,2 @@
+with open("journal.txt", "a") as f:
+    f.write(input("Activité : ") + "\n")
