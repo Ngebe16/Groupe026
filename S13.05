@@ -1,0 +1,8 @@
+import math
+try:
+    x = float(input("Nombre : "))
+    print(math.sqrt(x))
+except ValueError:
+    print("Nombre négatif")
+finally:
+    print("Fin du programme")
