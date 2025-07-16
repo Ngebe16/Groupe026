@@ -1,0 +1,8 @@
+def calculer(a, b, op):
+    if op == "+": return a + b
+    elif op == "-": return a - b
+    elif op == "*": return a * b
+    elif op == "/": return a / b if b != 0 else "Erreur"
+    else: return "Opération invalide"
+
+print(calculer(5, 3, "*"))  # Sortie : 15
