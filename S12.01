@@ -1,0 +1,6 @@
+with open("utilisateurs.txt", "w") as f:
+    while True:
+        nom = input("Nom (ou 'stop') : ")
+        if nom == "stop":
+            break
+        f.write(nom + "\n")
