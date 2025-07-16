@@ -1,0 +1,3 @@
+texte = input("Texte : ")
+with open("rapport.txt", "w") as f:
+    f.write(f"Mots: {len(texte.split())}\nCaractères: {len(texte)}")
