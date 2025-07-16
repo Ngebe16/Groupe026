@@ -1,0 +1,8 @@
+import random
+nombre_secret = random.randint(1, 100)
+while True:
+    essai = int(input("Devinez (1-100) : "))
+    if essai == nombre_secret:
+        print("Bravo !")
+        break
+    print("Trop petit." if essai < nombre_secret else "Trop grand.")
