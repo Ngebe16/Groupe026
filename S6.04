@@ -1,0 +1,6 @@
+while True:
+    mdp = input("Mot de passe : ")
+    if mdp == "Python2025":
+        print("Accès autorisé.")
+        break
+    print("Incorrect, réessayez.")
