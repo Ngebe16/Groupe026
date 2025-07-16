@@ -1,0 +1,5 @@
+etudiants = [("Alice", 16), ("Bob", 14), ("Claire", 18)]
+print("Étudiants brillants :")
+for nom, note in etudiants:
+    if note >= 15:
+        print(f"- {nom} : {note}")
