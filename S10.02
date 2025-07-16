@@ -1,0 +1,2 @@
+liste = input("Éléments : ").split()
+print("Inversée :", liste[::-1])
