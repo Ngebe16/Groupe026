@@ -1,0 +1,4 @@
+def palindrome(mot):
+    return mot == mot[::-1]
+
+print(palindrome("radar"))  # True
