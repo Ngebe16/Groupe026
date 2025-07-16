@@ -1,0 +1,7 @@
+import random
+import string
+
+def generer_mdp(longueur):
+    return ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(longueur))
+
+print(generer_mdp(8))  # Ex: "X5fG2hY9"
